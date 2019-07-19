@@ -103,6 +103,18 @@ html, body {
     animation: glowing 800ms infinite;
 }
 
+/* CSS animation for glowing course co-requirements: */
+@keyframes reqglowing {
+    0% { box-shadow: 0 0 -20px #0000ff; }
+    40% { box-shadow: 0 0 20px #0000ff; }
+    60% { box-shadow: 0 0 20px #0000ff; }
+    100% { box-shadow: 0 0 -20px #0000ff; }
+}
+
+.reqcourse-glow {
+    animation: reqglowing 800ms infinite;
+}
+
 /* Text CSS: */
 
 .course-name {
