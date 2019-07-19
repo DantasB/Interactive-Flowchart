@@ -281,6 +281,25 @@ function onLongTouch(index) {
     }
 }
 
+// Function to display a course's co-requirements when holding its box:
+
+function onLongTouch(index) {
+    // Signals that the timer is no longer running:
+    timer = null;
+    // Retrieves requirements for course "index":
+    var corequirements = courses[index].corequirements;
+    // Light them up if requirements exist:
+    if (corequirements != undefined){
+        for (var i in corequirements){
+            $("#course"+corequirements[i]).addClass("reqcourse-glow");
+            // Sets a timer for the glow to end after a few seconds:
+            (function(i) {
+                setTimeout(function(){ $("#course"+corequirements[i]).removeClass("reqcourse-glow"); }, 4600);
+            }(i));
+        }
+    }
+}
+
 
 function isComplete(index){
 	return ((courses[index].color != -1) && (courses[index].step == undefined)) || (courses[index].partial == courses[index].credits);
