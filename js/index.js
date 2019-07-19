@@ -263,12 +263,13 @@ function setCodeText(i, fade){
 }
 
 
-// Function to display a course's requirements when holding its box:
+// Function to display a course's requirements and co-requirements when holding its box:
 function onLongTouch(index) {
     // Signals that the timer is no longer running:
     timer = null;
     // Retrieves requirements for course "index":
     var requirements = courses[index].requirements;
+    var corequirements = courses[index].corequirements;
     // Light them up if requirements exist:
     if (requirements != undefined){
         for (var i in requirements){
@@ -279,16 +280,6 @@ function onLongTouch(index) {
             }(i));
         }
     }
-}
-
-// Function to display a course's co-requirements when holding its box:
-
-function onLongTouch(index) {
-    // Signals that the timer is no longer running:
-    timer = null;
-    // Retrieves requirements for course "index":
-    var corequirements = courses[index].corequirements;
-    // Light them up if requirements exist:
     if (corequirements != undefined){
         for (var i in corequirements){
             $("#course"+corequirements[i]).addClass("reqcourse-glow");
@@ -299,6 +290,7 @@ function onLongTouch(index) {
         }
     }
 }
+
 
 
 function isComplete(index){
