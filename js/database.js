@@ -5,7 +5,7 @@ window.semesters = 10;
 /* The first color is default for selecting options as well, so make sure to choose that one wisely */
 window.colors = ["#b1fca4", "#fac6ff", "#a8c9ff"];
 
-// Order of courses matters: do not swap positions. Append at the end.
+
 window.courses = [
     { name: "Biologia Molecular", credits: 5, code: "BMH126", semester: 1},
     { name: "Embriologia", credits: 0, code: "BMH127", semester: 1},
