@@ -1,4 +1,4 @@
-/* Number of total columns/semesters: */
+/* Number of total semesters: */
 window.semesters = 10;
 
 /* List of available colors to toggle a course as completed */
