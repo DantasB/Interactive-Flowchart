@@ -47,7 +47,7 @@ window.courses = [
     { name: "Micro Imuno Clínica", credits: 3, code: "FFC480", semester: 6, requirements: [32]},
     { name: "Metabolismo Integrado", credits: 4, code: "FFI311", semester: 6, requirements: [9]},
     { name: "Farmacotécnica I", credits: 4, code: "FFM313", semester: 6, requirements: [28]},
-    { name: "Farmacognosia I", credits: 3, code: "FFP313", semester: 6, requirements: [11, 26]},
+    { name: "Farmacognosia I", credits: 3, code: "FFP313", semester: 6, requirements: [10, 26]},
     { name: "Química de Alimentos", credits: 3, code: "FFP324", semester: 6, requirements: [9, 22]},
     { name: "Farmacologia Cardio/Quimio", credits: 4, code: "BMF410", semester: 7, requirements: [14, 35]},
     { name: "Bioquímica Clínica", credits: 3, code: "FFC304", semester: 7, requirements: [9, 14]},
@@ -58,7 +58,7 @@ window.courses = [
     { name: "Estágio Sup. Farm. Comun.", credits: 2, code: "FFM481", semester: 7, requirements: [28, 39]},
     { name: "Farmacognosia II", credits: 3, code: "FFP323", semester: 7, requirements: [40]},
     { name: "Análises de Alimentos", credits: 3, code: "FFP403", semester: 7, requirements: [41]},
-    { name: "Parasitologia e Micologia Clínica", credits: 3, code: "FFC406", semester: 8, requirements: [35]},
+    { name: "Parasitologia e Micologia Clínica", credits: 3, code: "FFC406", semester: 8, requirements: [36]},
     { name: "Química Farm. Med.", credits: 5, code: "FFI401", semester: 8, requirements: [26, 42]},
     { name: "Farmácia Hospitalar", credits: 2, code: "FFM300", semester: 8, corequirements: [42, 46]},
     { name: "Deonto. e Legisl. Farmacêutica", credits: 2, code: "FFM301", semester: 8},
@@ -79,5 +79,5 @@ window.courses = [
     { name: "Economia e Adm, Empr. Farm.", credits: 3, code: "IEEE326", semester: 9},
     { name: "Atividades Acad. Livre. Esc.", credits: 3, semester: 9},
     { name: "Atividades Acad. Optativas", credits: 6, semester: 9, step: 1},
-    { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10}
+    { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10},
 ]
