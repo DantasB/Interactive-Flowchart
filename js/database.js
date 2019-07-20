@@ -79,5 +79,5 @@ window.courses = [
     { name: "Economia e Adm, Empr. Farm.", credits: 3, code: "IEEE326", semester: 9},
     { name: "Atividades Acad. Livre. Esc.", credits: 3, semester: 9},
     { name: "Atividades Acad. Optativas", credits: 6, semester: 9, step: 1},
-    { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10},
+    { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10}
 ]
