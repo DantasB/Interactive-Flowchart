@@ -80,4 +80,5 @@ window.courses = [
     { name: "Atividades Acad. Livre. Esc.", credits: 3, semester: 9},
     { name: "Atividades Acad. Optativas", credits: 6, semester: 9, step: 1},
     { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10},
+    { name: "Ativ. Complementares", credits: 180, semester: 10, step: 10},
 ]
