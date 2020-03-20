@@ -81,4 +81,5 @@ window.courses = [
 { name: "Bromatologia em Saúde", credits: 3, code: "FFP402", semester: 12, requirements:[39] },
 { name: "Estágio Sup Espec", credits: 8, code: "FFWU06", semester: 12 },
 { name: "Atividades Acad. Opt", credits: 4, semester: 12 },
+{ name: "Ativ. Complementares", credits: 180, semester: 10, step: 10},
 ]
