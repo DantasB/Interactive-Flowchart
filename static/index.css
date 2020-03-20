@@ -195,9 +195,14 @@ html, body {
 	background-image: url("images/switch.png");
 }
 
-#options-menu #moon-sun {
+#options-menu #sun {
 	top: 11.5vw;
-	background-image: url("images/moon-sun.png");
+	background-image: url("images/sun.png");
+}
+
+#options-menu #moon {
+	top: 14.1vw;
+	background-image: url("images/moon.png");
 }
 
 .option-marked {
