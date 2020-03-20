@@ -670,11 +670,11 @@ function LightenDarkenColor(col, amt) {
 
 // Checks if cookies already exist:
 function checkCookies() {
-    var check = getCookie("newcomer12");
+    var check = getCookie("newcomer13");
     // If cookie doesn't exist:
     if (check == "") {
         // Sets the first visit as false:
-        setCookie("newcomer12", "false");
+        setCookie("newcomer13", "false");
 		// Sets the edit-lock as false:
         setCookie("editLock", "false");
 		// Sets the current editing color:
