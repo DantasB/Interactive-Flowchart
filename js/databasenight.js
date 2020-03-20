@@ -1,5 +1,5 @@
 /* Number of total semesters: */
-window.semesters = 10;
+window.semesters = 12;
 
 /* List of available colors to toggle a course as completed */
 /* The first color is default for selecting options as well, so make sure to choose that one wisely */
