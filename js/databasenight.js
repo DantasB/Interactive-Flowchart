@@ -21,7 +21,7 @@ window.courses = [
 { name: "Química Geral II", credits: 3, code: "IQG127", semester: 2, requirements: [6] },
 { name: "Química Orgânica I", credits: 4, code: "IQO120", semester: 2, requirements: [6] },
 { name: "Atividades Acad. Optativas", credits: 3, semester: 2 },
-{ name: "Bas Morfo Bio Aplic Far II", credits: 11, code: "BMW204", semester: 2, requirements: [9] }
+{ name: "Bas Morfo Bio Aplic Far II", credits: 11, code: "BMW204", semester: 2, requirements: [9] },
 { name: "Físico-Química I", credits: 4, code: "IQF235", semester: 3, requirements: [7] },
 { name: "Quimica Orgânica II", credits: 3, code: "IQO230", semester: 3, requirements: [12] },
 { name: "Bioestatística", credits: 3, code: "MAD237", semester: 3 },
