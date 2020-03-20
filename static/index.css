@@ -195,6 +195,11 @@ html, body {
 	background-image: url("images/switch.png");
 }
 
+#options-menu #moon-sun {
+	top: 11.5vw;
+	background-image: url("images/moon-sun.png");
+}
+
 .option-marked {
 	background-color: #b1fca4;
 }
