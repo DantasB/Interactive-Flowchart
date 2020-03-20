@@ -70,7 +70,7 @@ window.courses = [
     { name: "Atividades Acad. Livre. Esc.", credits: 2, semester: 8},
     { name: "Atividades Acad. Optativas", credits: 2, semester: 8},
     { name: "Toxicologia Geral", credits: 3, code: "FFC314", semester: 9, requirements:[26, 28]},
-    { name: "Con. Bio. Micro. Quali. Pro. Farma.", credits: 4, code: "FFI402", semester: 9, requirements:[28, 32]},
+    { name: "Con. Bio. Mic. Qua. Pro. Far.", credits: 4, code: "FFI402", semester: 9, requirements:[28, 32]},
     { name: "Biofarmácia", credits: 2, code: "FFM405", semester: 9, requirements: [46]},
     { name: "Dermocosméticos", credits: 2, code: "FFM406", semester: 9, requirements: [39]},
     { name: "Biotecnologia Farmacêutica", credits: 3, code: "FFM426", semester: 9, requirements: [32, 38]},
