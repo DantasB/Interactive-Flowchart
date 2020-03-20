@@ -76,7 +76,7 @@ window.courses = [
     { name: "Biotecnologia Farmacêutica", credits: 3, code: "FFM426", semester: 9, requirements: [32, 38]},
     { name: "Estágio Sup. Farmácia Hosp.", credits: 2, code: "FFMU08", semester: 9, requirements: [42, 46, 53]},
     { name: "TCC", credits: 0, code: "FFWK02", semester: 9, requirements: [21]},
-    { name: "Economia e Adm, Empr. Farm.", credits: 3, code: "IEEE326", semester: 9},
+    { name: "Eco e Adm, Emp. Far.", credits: 3, code: "IEEE326", semester: 9},
     { name: "Atividades Acad. Livre. Esc.", credits: 3, semester: 9},
     { name: "Atividades Acad. Optativas", credits: 6, semester: 9, step: 1},
     { name: "Estágio Sup Especialidades", credits:8, code: "FFWU06", semester: 10},
