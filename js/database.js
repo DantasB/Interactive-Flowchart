@@ -54,7 +54,7 @@ window.courses = [
     { name: "Diagnóstico Clínico Laboratorial", credits: 2, code: "FFC321", semester: 7, requirements: [32, 36]},
     { name: "Hematologia", credits: 2, code: "FFC322", semester:7, requirements: [14]},
     { name: "Farmacotécnica II", credits: 4, code: "FFM323", semester: 7, requirements: [39]},
-    { name: "Assist. e Atenção Farm.", credits: 2, code: "FFM481", semester: 7, requirements: [35, 39]},
+    { name: "Assist. e Atenção Farm.", credits: 2, code: "FFM481", semester: 7, requirements: [31, 35]},
     { name: "Estágio Sup. Farm. Comun.", credits: 2, code: "FFM481", semester: 7, requirements: [28, 39]},
     { name: "Farmacognosia II", credits: 3, code: "FFP323", semester: 7, requirements: [40]},
     { name: "Análises de Alimentos", credits: 3, code: "FFP403", semester: 7, requirements: [41]},
