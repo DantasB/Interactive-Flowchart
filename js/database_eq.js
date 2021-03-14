@@ -1,3 +1,12 @@
+/* Number of total semesters: */
+window.semesters = 10;
+
+/* List of available colors to toggle a course as completed */
+/* The first color is default for selecting options as well, so make sure to choose that one wisely */
+window.colors = ["#b1fca4", "#fac6ff", "#a8c9ff", "#ff6347", "#9400d3", "#19dfda", "#ff7373", "#223bf6"];
+
+
+window.courses = [ 
  { name: "Desenho Técnico", credits: 3, code: "EEG111", semester: 1},
  { name: "Introd. calculo de processos", credits: 3, code: "EQE112", semester: 1},
  { name: "Introd. Proc Quím Bioquímic", credits: 3, code: "EQW112", semester: 1},
@@ -61,4 +70,5 @@
  { name: "Estágio Superv em Eng de Alim", credits: 2, code: "EQWU95", semester: 10},
  { name: "Livre Escolha", credits: 4, semester: 10, step:1},
  { name: "Optativas", credits: 4, semester: 10, step:1},
- { name: "Laboratório de Engenharia Química", credits: 4, code: "EQE598", semester: 10},
+ { name: "Laboratório de Engenharia Química", credits: 4, code: "EQE598", semester: 10}
+ ]
