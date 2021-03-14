@@ -356,7 +356,7 @@ window.courses = [{
         step: 1
     },
     {
-        name: "Segurança de Processos e Prevenção de Perdas",
+        name: "Segurança de Proc e Prev de Perdas",
         credits: 3,
         code: "EQB592",
         semester: 9,
