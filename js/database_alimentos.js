@@ -19,7 +19,7 @@ window.courses = [
  { name: "Química Analítica Exp. I", credits: 2, code: "IQO128", semester: 2, requirements: [3]},
  { name: "Química Organica I", credits: 4, code: "IQO128", semester: 2, requirements: [5]},
  { name: "Química Orgânica Exp. I - EQ", credits: 2, code: "IQO130", semester: 2, requirements: [3]},
- { name: "Cálculo II", credits: 4, code: "MAC128", semester: 2, requirements: [5]},
+ { name: "Cálculo II", credits: 4, code: "MAC128", semester: 2, requirements: [4]},
  { name: "Fisica III", credits: 4, code: "FIM230", semester: 3, requirements:[12, 7]},
  { name: "Física Experimental III", credits: 1, code: "FIN231", semester: 3, requirements:[2]},
  { name: "Química Analítica Exp II", credits: 1, code: "IQA243", semester: 3, requirements: [8, 9]},
