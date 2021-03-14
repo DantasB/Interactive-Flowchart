@@ -59,21 +59,21 @@ window.courses = [{
         credits: 4,
         code: "IQA121",
         semester: 2,
-        requirements: [4]
+        requirements: [3]
     },
     {
         name: "Química Analítica Exp. I",
         credits: 2,
         code: "IQO128",
         semester: 2,
-        requirements: [3]
+        requirements: [2]
     },
     {
         name: "Química Organica I",
         credits: 4,
         code: "IQO128",
         semester: 2,
-        requirements: [5]
+        requirements: [2]
     },
     {
         name: "Química Orgânica Exp. I - EQ",
@@ -87,7 +87,7 @@ window.courses = [{
         credits: 4,
         code: "MAC128",
         semester: 2,
-        requirements: [5]
+        requirements: [4]
     },
     {
         name: "Fisica III",
@@ -101,7 +101,7 @@ window.courses = [{
         credits: 1,
         code: "FIN231",
         semester: 3,
-        requirements: [2]
+        requirements: [1]
     },
     {
         name: "Química Analítica Exp II",
@@ -122,7 +122,7 @@ window.courses = [{
         credits: 2,
         code: "IQG231",
         semester: 3,
-        requirements: [4]
+        requirements: [3]
     },
     {
         name: "Química Orgânica II",
@@ -210,35 +210,34 @@ window.courses = [{
         credits: 4,
         code: "IQF361",
         semester: 5,
-        requirements: [8, 9]
+        requirements: [12]
     },
     {
         name: "Físico-química Experimental/eq",
         credits: 1,
         code: "IQF367",
         semester: 5,
-        requirements: [20]
+        requirements: [21]
     },
     {
         name: "Estatística",
         credits: 4,
         code: "MAD469",
         semester: 5,
-        requirements: [20]
+        requirements: [12]
     },
     {
         name: "Fundam de Engen Bioquimica II",
         credits: 3,
         code: "EQB363",
         semester: 6,
-        requirements: [32]
+        requirements: [16]
     },
     {
         name: "Ciências Soc e Introd à Econom",
         credits: 3,
         code: "EQE360",
-        semester: 6,
-        requirements: [32]
+        semester: 6
     },
     {
         name: "Cinética Química e Reatores",
@@ -256,34 +255,34 @@ window.courses = [{
         name: "Ciência dos Materiais",
         credits: 4,
         code: "EQI365",
-        semester: 6
+        semester: 6,
+        requirements: [3]
     },
     {
         name: "Análise Instrumental",
         credits: 2,
         code: "IQA364",
-        semester: 6
+        semester: 6,
+        requirements: [8, 9]
     },
     {
         name: "Química Inorgânica",
         credits: 4,
         code: "IQG244",
         semester: 6,
-        requirements: [4]
+        requirements: [17]
     },
     {
         name: "Modelagem e Dinâmica de Proces",
         credits: 3,
         code: "EQE400",
-        semester: 7,
-        requirements: [33]
+        semester: 7
     },
     {
         name: "Admin.e Organização Industrial",
         credits: 3,
         code: "EQE470",
-        semester: 7,
-        requirements: [34]
+        semester: 7
     },
     {
         name: "Operações Unitárias I",
@@ -308,28 +307,27 @@ window.courses = [{
         credits: 2,
         code: "EQI472",
         semester: 7,
-        requirements: [32]
+        requirements: [17]
     },
     {
         name: "Processos Orgânicos",
         credits: 4,
         code: "EQO475",
         semester: 7,
-        requirements: [12]
+        requirements: [18]
     },
     {
         name: "Engenharia do Meio Ambiente",
         credits: 4,
         code: "EQB485",
         semester: 8,
-        requirements: [20]
+        requirements: [26, 42]
     },
     {
         name: "Operações Unitárias II",
         credits: 5,
         code: "EQB482",
-        semester: 8,
-        requirements: [34]
+        semester: 8
     },
     {
         name: "Planej e Avaliação de Projetos",
@@ -366,7 +364,8 @@ window.courses = [{
         name: "Tecnologia Orgânica experimental",
         credits: 2,
         code: "EQB595",
-        semester: 9
+        semester: 9,
+        requirements: [46]
     },
     {
         name: "Livre Escolha",
